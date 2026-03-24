@@ -7,7 +7,8 @@ import Resume from './sections/Resume';
 import Testimonials from './sections/Testimonials';
 import Clients from './sections/Clients';
 import Pricing from './sections/Pricing';
-import Blog from './sections/Blog'; // <-- Import the new Blog section
+import Blog from './sections/Blog';
+import Contact from './sections/Contact'; // <-- Import the final section!
 
 function App() {
   return (
@@ -20,12 +21,17 @@ function App() {
       <Testimonials />
       <Clients />
       <Pricing />
-      <Blog /> {/* <-- Replace the dummy Blog section with the real one */}
+      <Blog />
+      <Contact /> {/* <-- Goodbye temporary sections! */}
       
-      {/* The VERY LAST temporary section! */}
-      <section id="contact" style={{ height: '100vh', backgroundColor: '#ffffff', paddingTop: '100px' }}>
-        <div className="container"><h2>Contact Section Placeholder</h2></div>
-      </section>
+      {/* A clean, simple Footer to end the page */}
+      <footer className="bg-dark text-white text-center py-4">
+        <div className="container">
+          <p className="mb-0">
+            &copy; {new Date().getFullYear()} All Rights Reserved to Mehedi Hasan.
+          </p>
+        </div>
+      </footer>
     </div>
   );
 }

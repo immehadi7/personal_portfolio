@@ -8,7 +8,7 @@ const Navigation = () => {
       <Container>
         {/* Brand/Logo */}
         <Navbar.Brand href="#home" className="fw-bold fs-4">
-          MyPortfolio<span className="text-primary">.</span>
+          Mehedi<span className="text-primary">.</span>
         </Navbar.Brand>
         
         {/* Hamburger Menu for Mobile */}

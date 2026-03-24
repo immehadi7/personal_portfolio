@@ -49,7 +49,7 @@ const Services = () => {
       <Container>
         {/* Section Header */}
         <div className="text-center mb-5">
-          <h5 className="text-primary fw-bold">What I Do</h5>
+          <h5 className="text-primary fw-bold">What I Do ...</h5>
           <h2 className="fw-bold">My Services</h2>
           <div style={{ width: '60px', height: '4px', backgroundColor: '#0d6efd', margin: '10px auto' }}></div>
         </div>

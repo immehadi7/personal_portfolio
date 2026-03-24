@@ -55,7 +55,7 @@ const Contact = () => {
                 </div>
                 <div className="ms-3">
                   <h6 className="fw-bold mb-1">Location</h6>
-                  <p className="text-muted mb-0">Ashulia, Dhaka, Bangladesh</p>
+                  <p className="text-muted mb-0">Dhaka, Bangladesh</p>
                 </div>
               </div>
 
@@ -65,7 +65,7 @@ const Contact = () => {
                 </div>
                 <div className="ms-3">
                   <h6 className="fw-bold mb-1">Email</h6>
-                  <p className="text-muted mb-0">hello@yourdomain.com</p>
+                  <p className="text-muted mb-0">mehedy.adi7@gmail.com</p>
                 </div>
               </div>
 
@@ -75,7 +75,7 @@ const Contact = () => {
                 </div>
                 <div className="ms-3">
                   <h6 className="fw-bold mb-1">Call Me</h6>
-                  <p className="text-muted mb-0">+880 123 456 7890</p>
+                  <p className="text-muted mb-0">+880 1644707930</p>
                 </div>
               </div>
             </motion.div>

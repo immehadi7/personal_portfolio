@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { motion } from 'framer-motion';
+import profilepic from '../images/mehedi';
 
 const Hero = () => {
   return (
@@ -21,11 +22,11 @@ const Hero = () => {
             >
               <h5 className="text-primary fw-bold mb-2">Hello, Welcome!</h5>
               <h1 className="display-4 fw-bold mb-3">
-                Hi, I'm <span className="text-primary">[Your Name]</span>
+                Hi, I'm <span className="text-primary">Mehedi</span>
                 <br /> a Web Developer.
               </h1>
               <p className="lead text-muted mb-4">
-                I build modern, scalable, and responsive web applications. Let's turn your ideas into a beautiful digital reality.
+               I build modern, scalable, and responsive web applications that turn ideas into refined digital experiences. Having served 30+ professional clients, I deliver bespoke solutions with expertise in the MERN stack. Feel free to get in touch.
               </p>
               <div>
                 <Button variant="primary" size="lg" className="me-3 px-4 rounded-pill shadow-sm">
@@ -46,8 +47,7 @@ const Hero = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
             >
               {/* Note: We are using a placeholder image for now. You can replace the src later! */}
-              <img 
-                src="https://via.placeholder.com/500x500.png?text=Your+Profile+Pic" 
+              <img src={} 
                 alt="Profile" 
                 className="img-fluid rounded-circle shadow-lg"
                 style={{ maxWidth: '400px', width: '100%', border: '8px solid white' }}
