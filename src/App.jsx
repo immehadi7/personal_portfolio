@@ -6,7 +6,8 @@ import Portfolio from './sections/Portfolio';
 import Resume from './sections/Resume';
 import Testimonials from './sections/Testimonials';
 import Clients from './sections/Clients';
-import Pricing from './sections/Pricing'; // <-- Import Pricing
+import Pricing from './sections/Pricing';
+import Blog from './sections/Blog'; // <-- Import the new Blog section
 
 function App() {
   return (
@@ -18,14 +19,11 @@ function App() {
       <Resume />
       <Testimonials />
       <Clients />
-      <Pricing /> {/* <-- Add Pricing here */}
+      <Pricing />
+      <Blog /> {/* <-- Replace the dummy Blog section with the real one */}
       
-      {/* The final temporary sections */}
-      <section id="blog" style={{ height: '50vh', backgroundColor: '#e9ecef', paddingTop: '100px' }}>
-        <div className="container"><h2>Blog Section Placeholder</h2></div>
-      </section>
-
-      <section id="contact" style={{ height: '100vh', backgroundColor: '#f8f9fa', paddingTop: '100px' }}>
+      {/* The VERY LAST temporary section! */}
+      <section id="contact" style={{ height: '100vh', backgroundColor: '#ffffff', paddingTop: '100px' }}>
         <div className="container"><h2>Contact Section Placeholder</h2></div>
       </section>
     </div>
